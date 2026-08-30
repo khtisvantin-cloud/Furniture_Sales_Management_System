@@ -1,0 +1,1 @@
+<?php namespace App\Models; use Illuminate\Database\Eloquent\Model; class Furniture extends Model { protected $table = 'furnitures'; protected $fillable=['furniture_code','name','category_id','material','color','size','price','quantity','description','image','status']; public function category(){return $this->belongsTo(Category::class);} }

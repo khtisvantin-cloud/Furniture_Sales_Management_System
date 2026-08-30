@@ -1,0 +1,1 @@
+<?php namespace App\Models; use Illuminate\Database\Eloquent\Model; class InventoryTransaction extends Model { protected $fillable=['furniture_id','type','quantity','notes']; public function furniture(){return $this->belongsTo(Furniture::class);} }
