@@ -31,9 +31,6 @@
                         </tr>
                     @empty
                         <tr><td colspan="6" class="text-center py-5 text-muted">No categories found.</td></tr>
-
-                        <tr><td colspan="6" class="text-center py-5 text-muted">No categories found.</td></tr> 
-                        
                     @endforelse
                 </tbody>
             </table>
