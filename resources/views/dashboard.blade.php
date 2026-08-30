@@ -7,10 +7,9 @@
             <div class="col-6 col-xl">
                 <div class="card stat-card">
                     <div class="d-flex justify-content-between">
-                        <div>
-                            <div class="stat-label">Total {{ $c[0] }}</div>
-                            <div class="stat-value">{{ $c[1] }}</div>
-                        </div>
+                        
+
+
                         <div class="stat-icon {{ $c[3] }}"><i class="bi bi-{{ $c[2] }}"></i></div>
                     </div><small class="trend">+12 this month</small>
                 </div>
